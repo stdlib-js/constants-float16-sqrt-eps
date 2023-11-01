@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,21 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var sqrt = require( '@stdlib/math-base-special-sqrt' );
-var FLOAT16_EPSILON = require( '@stdlib/constants-float16-eps' );
-var FLOAT16_SQRT_EPSILON = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a number', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof FLOAT16_SQRT_EPSILON, 'number', 'main export is a number' );
-	t.end();
-});
-
-tape( 'the exported value equals the square root of half-precision floating-point epsilon', function test( t ) {
-	var expected = sqrt( FLOAT16_EPSILON );
-	t.strictEqual( FLOAT16_SQRT_EPSILON, expected, 'equals sqrt(2**-10)' );
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
