@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import FLOAT16_SQRT_EPSILON from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-sqrt-eps@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float16-sqrt-eps/tags). For example,
+
+```javascript
 import FLOAT16_SQRT_EPSILON from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-sqrt-eps@v0.2.0-deno/mod.js';
 ```
 
@@ -68,7 +73,7 @@ var bool = ( FLOAT16_SQRT_EPSILON === 0.03125 );
 import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@deno/mod.js';
 import maxabs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-maxabs@deno/mod.js';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import FLOAT16_SQRT_EPSILON from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-sqrt-eps@v0.2.0-deno/mod.js';
+import FLOAT16_SQRT_EPSILON from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-sqrt-eps@deno/mod.js';
 
 var bool;
 var a;
