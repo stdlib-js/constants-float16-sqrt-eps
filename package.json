@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-float16-sqrt-eps",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Square root of half-precision floating-point epsilon.",
   "license": "Apache-2.0",
   "author": {
@@ -36,11 +36,11 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@stdlib/constants-float16-eps": "^0.1.1",
-    "@stdlib/math-base-special-abs": "^0.1.1",
-    "@stdlib/math-base-special-maxabs": "^0.1.0",
-    "@stdlib/math-base-special-sqrt": "^0.1.1",
-    "@stdlib/random-base-randu": "^0.1.0",
+    "@stdlib/constants-float16-eps": "^0.2.0",
+    "@stdlib/math-base-special-abs": "^0.2.0",
+    "@stdlib/math-base-special-maxabs": "^0.2.0",
+    "@stdlib/math-base-special-sqrt": "^0.2.0",
+    "@stdlib/random-base-randu": "^0.2.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
