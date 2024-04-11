@@ -34,7 +34,9 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
+  },
   "devDependencies": {
     "@stdlib/constants-float16-eps": "^0.2.1",
     "@stdlib/math-base-special-abs": "^0.2.1",
