@@ -36,11 +36,11 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@stdlib/constants-float16-eps": "^0.2.2",
+    "@stdlib/constants-float16-eps": "^0.2.3",
     "@stdlib/math-base-special-abs": "^0.2.3",
     "@stdlib/math-base-special-maxabs": "^0.3.1",
     "@stdlib/math-base-special-sqrt": "^0.2.3",
-    "@stdlib/random-base-randu": "^0.2.2",
+    "@stdlib/random-base-randu": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
